@@ -1,16 +1,15 @@
 Package: disttestr
 Type: Package
 Title: Runs distribution tests
-Version: 0.1.0
+Version: 0.1.1
 Author: Timothy A. Model
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <tmodel@indiana.edu>
 Description: This packages neatly presents results of a battery of distribution and modality tests. The results present kurtosis, skewness, a host of Anderson-Darling estimates, dip statistics, and bimodaility coefficients and ratios. 
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/timothymodel/distribr
-Imports:
-  dplyr,
+URL: https://github.com/timothymodel/disttestr
+Imports: dplyr,
   modes,
   goftest,
   fitdistrplus,
