@@ -5,10 +5,6 @@ The package includes two functions. The function **distribtest()** runs distribu
 
 # Installation
 
-install.packages("devtools")
-
 library(devtools)
 
 install_github("timothymodel/disttestr")
-
-library(distribtest)
